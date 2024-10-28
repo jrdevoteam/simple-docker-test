@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <ProxyEndpoint name="default">
-  <PreFlow name="PreFlow">
+  <PrebananasFlow name="PreFlow">
     <Request/>
     <Response/>
   </PreFlow>

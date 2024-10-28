@@ -1,7 +1,7 @@
 pipeline {
   agent {
     docker {
-      image 'node:18.17.1-alpine3.18'
+      image 'ubunturandom:0.0.1'
     }
 
   }
@@ -24,6 +24,12 @@ pipeline {
     stage('Echo Deploy') {
       steps {
         echo 'Deploy'
+      }
+    }
+	
+	stage('Echo Linter') {
+      steps {
+        sh 'apigeelint -s apiproxy/ -f table.js --profile apigeex'
       }
     }
 

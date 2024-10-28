@@ -1,0 +1,13 @@
+<APIProxy revision="4" name="proxy-1-DEMO">
+    <DisplayName></DisplayName>
+    <Description>1.1.0 :::: proxy-1-DEMO</Description>
+    <CreatedAt>1708019302318</CreatedAt>
+    <LastModifiedAt>1708019302318</LastModifiedAt>
+    <BasePaths>/proxy-1-DEMO</BasePaths>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>

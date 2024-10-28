@@ -9,7 +9,7 @@ pipeline {
     stage('Echo Build') {
       steps {
         sh 'echo Build'
-        cat README.md
+        sh 'cat README.md'
       }
     }
 
